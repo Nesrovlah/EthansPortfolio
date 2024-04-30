@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #20233d;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .headerPlus {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 30;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+p{
+    max-width: 50%;
+}
+
+img#logo {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+img#profile {
+    border-radius: 10px;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+section#projects {
+    background-color: #c1c1c1;
+}
+
+section#projects section {
+    background-color: white;
+    border-radius: 5px;
+}
+
+section#contacts {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+section#contacts a {
+    color: white;
+    text-decoration: underline;
+}
+
+.horiz {
+    justify-content:left;
+    display: flex;
+}
+.cent{
+    justify-content: center;
+}
+.threeQuart{
+    width: 75%
+}
+.half{
+    width: 50%
+}
+.quart{
+    width:25%
+}
+/* .spacing{
+    margin-left: 10%;
+    margin-right: 10%;
+} */
+.leftMarginTenth{
+    margin-left: 10%;
+}
+.rightMarginTenth{
+    margin-right: 10%;
+}
+.leftMarginQuart{
+    margin-left: 25%;
+}
+.rightMarginQuart{
+    margin-right: 25%;
+}
+
+
